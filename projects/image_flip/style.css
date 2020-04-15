@@ -1,0 +1,25 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#rotate_buttons{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flip_horizontal{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.flip_vertical{
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.flip_vertical.flip_horizontal {
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
